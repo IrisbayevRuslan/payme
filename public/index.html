@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lesson-64</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- login-box  -->
+			<div class="login-box">
+				<form>
+					<div class="user-box">
+						<input
+						id="userCount"
+							type="text"
+							required=""
+							onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"
+						/>/>
+						<label>User Count</label>
+					</div>
+					<div class="user-box">
+						<input
+						id="cardCount"
+							type="text"
+							required=""
+							onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"
+						/>
+						<label>Card Count</label>
+					</div>
+					<center>
+						<a href="#" id="btn_send">
+							SEND
+							<span></span>
+						</a>
+					</center>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
